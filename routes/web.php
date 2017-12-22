@@ -28,3 +28,14 @@ Route::get('/teachers','TeachersController@index');
 Route::get('/teachers/{id}',function($id){
 
 },'TeachersController@');
+
+
+Route::get('foo',function()
+{
+	return 'Bar';
+});
+
+Route::get('articles','ArticlesController@index');
+
+
+?>
